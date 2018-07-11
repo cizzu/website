@@ -1,0 +1,4 @@
+[submodule "themes/tranquilpeak"]
+	path = themes/tranquilpeak
+	url = https://github.com/aphe/hugo-tranquilpeak-theme.git
+	branch = cizzu_com
