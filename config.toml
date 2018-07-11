@@ -47,6 +47,7 @@ googleAnalytics = "UA-113052979-1"
   thumbnailImagePosition = "top"
   autoThumbnailImage = true
   favicon = "favicon.ico"
+  readingtime = true
 
   [[params.sharingOptions]]
     name = "Facebook"
