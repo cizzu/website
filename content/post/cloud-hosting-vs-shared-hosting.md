@@ -10,7 +10,9 @@ title: "Cloud Hosting vs Shared Hosting"
 thumbnailImage: https://source.unsplash.com/klWUhr-wPJ8/
 thumbnailImagePosition: "top"
 coverImage: https://source.unsplash.com/klWUhr-wPJ8/
+
 ---
+
 Seperti yang saya jabarkan pada page [about](https://www.tendabiru.net/about/) bahwa [tendabiru.net](https://goo.gl/tZDjPp) ini sebelumnya adalah sebuah forum untuk komunitas kampus penulis. Karena waktu itu kaskus sedang besar-besarnya sehingga muncul ide untuk membuat forum komunitas sendiri dari beberapa teman.
 <!--more-->
 <!--toc-->
@@ -32,6 +34,7 @@ Tapi keterbatasan shared hosting membuat ketidakpuasan tersendiri bagi penulis, 
 Pada waktu itu sendiri, harga Cloud Hosting memang masih sangat mahal kisaran $50 per bulannya. Namun, beberapa tahun kebelakang harga Cloud Hosting sudah amat sangat terjangkau bagi orang kebanyakan, mulai dari $2.5 yang termurah sampai $100an untuk resource yang besar.
 
 # Kelebihan Cloud Hosting
+
 Sekarang apa kelebihan Cloud Hosting? Cloud Hosting memang tidak semudah shared hosting, tapi memiliki beberapa kelebihan, diantaranya adalah *full control* terhadap resource yang telah dialokasikan. Install apapun yang kita inginkan pada Cloud Hosting merupakan sesuatu hal yang wajar, dan umum. OpenVPN untuk tunneling? aplikasi web based/API yang menggunakan node js? python? go? atau bahasa lainnya?, membuat aplikasi untuk image recognition? kecerdasan buatan? menaruh file sebagai cloud pribadi? server git pribadi? dll bisa dilakukan dengan Cloud Hosting. Tinggal install aplikasi beserta library pendukungnya kemudian konfigurasi.
 
 Dengan Cloud Hosting user juga bisa mengubah konfigurasi default dari suatu parameter bahasa pemrograman/aplikasi tertentu yang tidak dapat dilakukan oleh shared hosting. Hal ini memungkinkan untuk optimalisasi dan efisiensi sebuah aplikasi/program tertentu.
@@ -51,6 +54,7 @@ Berikut adalah beberapa Cloud Hosting yang pernah penulis gunakan dan rekomendas
 Cloud Hosting dengan harga miring yang pertama kali penulis tahu adalah [linode](https://goo.gl/tZDjPp). Pertama kali didirikan pada tahun 2011, [linode](https://goo.gl/tZDjPp) menggunakan XEN sebagai virtualizationnya, kemudian pada tahun 2015 [linode](https://goo.gl/tZDjPp4) pindah ke KVM. [Linode](https://goo.gl/tZDjPp) merupakan salah satu pencetus Cloud Hosting murah dengan system unmanaged pertama. unmanaged berarti [linode](https://goo.gl/tZDjPp) tidak bertanggung jawab atas maintenance maupun pengurusan Cloud Hosting yang kita miliki.
 
 ## 2. [DigitalOcean](https://goo.gl/5itdve)
+
 [![DigitalOcean](https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_Vertical_Blue-6321464d.png#center)
 ](https://goo.gl/5itdve)
 
@@ -59,6 +63,7 @@ Cloud Hosting dengan harga miring yang pertama kali penulis tahu adalah [linode]
 Dengan dukungan dan dokumentasi yang lumayan komplit serta kemudahan membuat droplet ([DigitalOcean](https://goo.gl/5itdve) menyebut Cloud Hosting nya dengan istilah droplet), [DigitalOcean](https://goo.gl/5itdve) cocok bagi pengguna yang pertama kali menggunakan Cloud Hosting.
 
 ## 3. [Vultr](https://goo.gl/Mn2ThW)
+
 [![VULTR](https://www.vultr.com/media/logo_onwhite.png#center)
 ](https://goo.gl/Mn2ThW) 
 
@@ -69,6 +74,7 @@ Walaupun secara tampilan [Vultr](https://goo.gl/Mn2ThW) bisa dibilang mengikuti 
 Untuk saat ini, tendabiru sendiri menggunakan [Vultr](https://goo.gl/Mn2ThW) sebagai Cloud Hostingnya.
 
 # Kesimpulan
+
 Dari 3 Cloud Hosting di atas, masing-masing memiliki kelebihan tersendiri. Untuk yang baru pertama kali ingin menggunakan Cloud Hosting, penulis merekomendasikan [DigitalOcean](https://goo.gl/5itdve), karena dokumentasi dari komunitas yang lumayan komplit, dan deploy droplet yang mudah dan cepat.
 
 Tapi bagi yang ingin Cloud Hosting dengan harga yang jauh lebih *miring*, maka bisa mencoba vultr yang menawarkan harga miring dengan resource yang sama dengan [DigitalOcean](https://goo.gl/5itdve) ataupun [Linode](https://goo.gl/tZDjPp).

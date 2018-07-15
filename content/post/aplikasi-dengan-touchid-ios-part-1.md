@@ -16,6 +16,7 @@ keyword:
 thumbnailImagePosition: "top"
 thumbnailImage: //res.cloudinary.com/tendabiru/image/upload/q_auto:good/jckmr55tuxygcxqngkni.jpg
 coverImage: //res.cloudinary.com/tendabiru/image/upload/q_auto:good/jckmr55tuxygcxqngkni.jpg
+
 ---
 
 Sebelum memulai postingan berikut, ada baiknya untuk mengetahui apa itu touch ID. Mungkin yang hari-harinya sudah terbiasa menggunakan iPhone, telah mengenal dan menggunakan touch ID ini, touch ID sendiri adalah feature pengenalan sidik jari yang dikembangkan dan dikeluarkan oleh [Apple](https://en.wikipedia.org/wiki/Apple_Inc.) dan menjadi standart atau feature yang harus ada pada iPhone dimulai dari iPhone 5S, kemudian berkembang juga ke Macbook Pro pada akhir 2016.
@@ -25,9 +26,7 @@ Touch ID pada iPhone/iPad dibuat menjadi satu dengan home button menggunakan bah
 
 Touch ID juga dapat menggunakan passcode, semacam keypad yang dapat menerima inputan pin apabila beberapa kali jari yang terdaftar tidak dapat dikenali oleh sensor touch ID.
 
-<!-- toc -->
-
-# Inisialisasi Project #
+# Inisialisasi Project
 
 Agar aplikasi dapat menggunakan feature touch ID ini, API atau framework yang digunakan adalah `LocalAuthentication`.
 
@@ -87,7 +86,7 @@ Untuk membuat frame pada buttonnya maka saya akan membuat extension pada UIButto
 
 ```swift
 extension UIButton {
-    
+
     @IBInspectable var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -97,7 +96,7 @@ extension UIButton {
             layer.masksToBounds = newValue > 0
         }
     }
-    
+
     @IBInspectable var borderWidth: CGFloat {
         get {
             return layer.borderWidth
@@ -106,7 +105,7 @@ extension UIButton {
             layer.borderWidth = newValue
         }
     }
-    
+
     @IBInspectable var borderColor: UIColor? {
         get {
             return UIColor(cgColor: layer.borderColor!)
@@ -134,7 +133,6 @@ Beri nama pada segue tersebut dengan `goToPassCode`, Selanjutnya, kembali lagi k
 
 ```swift
 @IBAction func unwindToMain(segue: UIStoryboardSegue) {}
-
 ```
 
 Function tersebut adalah function unwind yang digunakan untuk kembali ke viewcontroller sebelumnya setelah segue.
@@ -153,14 +151,13 @@ Kembali ke `ViewController.swift` pada function `onActivate` jalankan segue deng
 @IBAction func onActivate(_ sender: UISwitch) {
     self.performSegue(withIdentifier: "goToPassCode", sender: self)
 }
-
 ```
 
 Coba jalankan pada simulator. Untuk fungsi segue, akan dijabarkan berikutnya
 
 ![preview segue](https://res.cloudinary.com/tendabiru/image/upload/q_auto:good,w_0.6/uufv0pysmdro0elzvcbb.gif#center)
 
-# Setting Pass Code #
+# Setting Pass Code
 
 Pada file `PassCodeViewController`, tambahkan satu variable boolean yang menentukan apakah passcode yang muncul adalah untuk setting atau untuk memverifikasi. Hal ini guna mengurangi redudansi dan penghematan `ViewController` sehingga satu ViewController yang mempunyai fungsi tidak jauh berbeda dapat digunakan berulang kali, dan perubahan hanya dilakukan pada saat runtime saja.
 
@@ -195,4 +192,5 @@ Oke, class `ViewController` untuk saat ini sudah selesai. Buka kembali `Main.sto
 @IBAction func onUndoTap(_ sender: UIButton) {
 }
 ```
+
 Demikian untuk posting kali ini, untuk selanjutnya akan dijabarkan pada post berikutnya, stay tuned 😉 
