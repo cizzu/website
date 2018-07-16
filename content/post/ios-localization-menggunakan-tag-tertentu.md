@@ -1,14 +1,14 @@
 ---
-categories:
-- development
-- tutorial
 date: 2017-04-02T05:54:00Z
 description: "Membuat localization pada aplikasi iOS yang support dengan tag tertentu seperti <b>bold</b> <i>italic</i>."
 draft: false
 slug: "ios-localization-menggunakan-tag-tertentu"
-tags:
+categories:
+- tutorial
+tags: 
+- development
 - swift
-- iOS
+keywords: [swift, iOS, tutorial, localization, translate, bahasa]
 title: "iOS localization menggunakan tag tertentu"
 thumbnailImage: https://source.unsplash.com/aUu8tZFNgfM/
 thumbnailImagePosition: "top"

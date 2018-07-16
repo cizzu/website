@@ -1,14 +1,14 @@
 ---
-categories:
-- development
-- tutorial
 date: 2017-05-20T19:36:00Z
 description: "Tutorial bagaimana membuat login form yang dapat memvalidasi username dan password pada aplikasi iOS dengan menggunakan swift disertai dengan source code"
 draft: false
 slug: "ios-login-form-dengan-validasi"
+categories:
+- tutorial
 tags:
+- development
 - swift
-- iOS
+keywords: [swift, iOS, tutorial, login, login app, xcode, xcode project]
 title: "iOS Login Form Dengan Validasi"
 thumbnailImage: https://source.unsplash.com/ow9uDbA5x8E/
 thumbnailImagePosition: "top"

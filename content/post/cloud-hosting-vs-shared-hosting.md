@@ -1,12 +1,15 @@
 ---
-categories:
-- opinit
-- review
 date: 2017-05-25T08:55:54Z
 description: "Membandingkan Antara Cloud Hosting dan Shared Hosting. Dan mengapa lebih baik menggunakan Cloud Hosting ketimbang Shared Hosting"
 draft: false
 slug: "cloud-hosting-vs-shared-hosting"
 title: "Cloud Hosting vs Shared Hosting"
+categories:
+- opini
+- review
+tags: 
+- web
+keywords: [opini, cloud, hosting, cloud hosting, shared hosting, vps]
 thumbnailImage: https://source.unsplash.com/klWUhr-wPJ8/
 thumbnailImagePosition: "top"
 coverImage: https://source.unsplash.com/klWUhr-wPJ8/

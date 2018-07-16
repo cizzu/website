@@ -2,17 +2,14 @@
 author: "Afriyandi Setiawan"
 title: "SourceTree vs GitKraken"
 description: "Kelebihan dan Kekurangan yang ada pada SourceTree maupun GitKraken. "
-categories: 
-- review
-- opini
 date: 2017-08-13T04:35:00Z
 draft: false
 slug: "sourcetree-vs-gitkraken"
-tags:
-keywords:
-- sourcetree
-- gitkraken
+categories: 
+- opini
 - review
+tags: [git]
+keywords: [SourceTree, mac, GitKraken, review, kelebihan, kekurangan, osx, mac]
 thumbnailImage: https://res.cloudinary.com/tendabiru/image/upload/q_auto:good/xcbpodxcces4y16nhsla.png
 thumbnailImagePosition: "top"
 coverImage: https://res.cloudinary.com/tendabiru/image/upload/q_auto/xcbpodxcces4y16nhsla.png

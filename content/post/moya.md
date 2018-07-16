@@ -2,16 +2,13 @@
 author: "Afriyandi Setiawan"
 title: "Moya"
 description: "Pengenalan, tutorial serta penggunaan moya"
-categories:
-- development
-- tutorial
 date: 2018-01-24T16:13:21Z
 draft: false
 slug: "moya"
-tags:
-- swift
-- xcode
-- iOS
+categories:
+- tutorial
+tags: [development, swift]
+keywords: [swift, iOS, xcode, moya, Alamofire, tutorial, framework, xcode, xcode project, library]
 thumbnailImage: https://source.unsplash.com/Z3ownETsdNQ/
 thumbnailImagePosition: "top"
 coverImage: https://source.unsplash.com/Z3ownETsdNQ/

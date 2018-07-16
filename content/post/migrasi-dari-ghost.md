@@ -1,8 +1,11 @@
 ---
 title: "Migrasi Dari Ghost"
 date: 2018-07-11T09:12:22+07:00
-categories: [development, opini]
-tags: [hugo]
+categories:
+- opini
+tags:
+- web
+- hugo
 keywords: [hugo, website, ghost, jekyll, static site, static page, html, static site generator]
 draft: false
 thumbnailImage: https://source.unsplash.com/fJTqyZMOh18/

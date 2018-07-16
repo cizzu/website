@@ -5,14 +5,12 @@ description: "Membuat aplikasi dengan feature touch ID yang ada pada iPhone/iPad
 date: 2017-06-10T14:46:39Z
 draft: false
 slug: "aplikasi-dengan-touchid-ios-part-1"
-categories:
+categories: 
+- tutorial
+tags: 
 - development
-- tutorial
-tags:
-- tutorial
-keyword:
 - swift
-- iOS
+keyword: [swift, iOS, apple, iPhone, touchID, xcode, xcode project]
 thumbnailImagePosition: "top"
 thumbnailImage: //res.cloudinary.com/tendabiru/image/upload/q_auto:good/jckmr55tuxygcxqngkni.jpg
 coverImage: //res.cloudinary.com/tendabiru/image/upload/q_auto:good/jckmr55tuxygcxqngkni.jpg

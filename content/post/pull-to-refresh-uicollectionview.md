@@ -1,14 +1,12 @@
 ---
-categories:
-- development
-- tutorial
 date: 2016-04-17T20:34:00Z
 description: "aplikasi yang dapat menambah satu jumlah cell setiap refresh dengan cara ditarik ke bawah atau gesture pull. "
 draft: false
 slug: "pull-to-refresh-uicollectionview"
-tags:
-- swift
-- iOS
+categories:
+- tutorial
+tags: [development, swift]
+keywords: [swift, iOS, pull to refresh, tutorial, apple, xcode]
 title: "Pull To Refresh UICollectionView"
 thumbnailImage: https://source.unsplash.com/gBnHMsAOWrs/
 thumbnailImagePosition: "top"

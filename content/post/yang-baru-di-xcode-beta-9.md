@@ -4,10 +4,9 @@ categories:
 date: 2017-06-06T02:43:00Z
 description: "Fitur-fitur baru yang ada pada xcode-beta 9."
 categories:
-- development
-tags:
-- xcode
-- iOS
+- opini
+tags: [xcode]
+keywords: [xcode, xcode-beta, xcode 9, update, xcode update]
 draft: false
 slug: "yang-baru-di-xcode-beta-9"
 title: "Yang Baru di xcode-beta 9"
