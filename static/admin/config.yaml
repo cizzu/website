@@ -1,0 +1,23 @@
+backend:
+  name: gitlab
+  repo: cizzu/website # Path to your GitLab repository
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "site/static/images/upload" # Folder where user uploaded files should go
+public_folder: "/images/upload"
+
+collections:
+  - name: "post"
+    label: "New Post"
+    folder: site/content/post
+    create: true
+    fields: 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Keywords", name: "keywords", widget: "list" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Thumbnail", name: "thumbnailImage", widget: "string" }
+      - { label: "Thumbnail Positioin", name: "thumbnailImagePosition", widget: "select", options: ["top", "left", "right"], default: "top" }
+      - { label: "Cover Image", name: "coverImage", widget: "string" }

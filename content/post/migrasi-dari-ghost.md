@@ -10,7 +10,7 @@ keywords: [hugo, website, ghost, jekyll, static site, static page, html, static 
 draft: false
 thumbnailImage: https://source.unsplash.com/fJTqyZMOh18/
 thumbnailImagePosition: "top"
-coverImage: 
+coverImage: https://source.unsplash.com/fJTqyZMOh18/
 
 ---
 Sebelumnya [cizzu.com](http://cizzu.com) menggunakan [ghost](https://ghost.org/) sebagai blog engine-nya, menggunakan server ubuntu yang di host di [Linode](https://goo.gl/tZDjPp), dengan biaya kurang lebih $10 - $12 per bulan. Dengan status sekarang yang sudah berkeluarga, rasanya pengeluaran segitu cukup lumayan juga 😅 apalagi servernya memang digunakan hanya untuk [cizzu.com](http://cizzu.com) saja, tanpa ada service atau aplikasi apa-apa lagi.
