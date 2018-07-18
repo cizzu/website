@@ -8,7 +8,7 @@ public_folder: "/images/upload"
 
 collections:
   - name: "post"
-    label: "New Post"
+    label: "Post"
     folder: site/content/post
     create: true
     fields: 
@@ -21,3 +21,4 @@ collections:
       - { label: "Thumbnail", name: "thumbnailImage", widget: "string" }
       - { label: "Thumbnail Positioin", name: "thumbnailImagePosition", widget: "select", options: ["top", "left", "right"], default: "top" }
       - { label: "Cover Image", name: "coverImage", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
