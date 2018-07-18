@@ -1,7 +1,7 @@
 backend:
   name: gitlab
   repo: cizzu/website # Path to your GitLab repository
-  branch: master # Branch to update (optional; defaults to master)
+  branch: editing # Branch to update (optional; defaults to master)
 
 media_folder: "site/static/images/upload" # Folder where user uploaded files should go
 public_folder: "/images/upload"
@@ -11,6 +11,7 @@ collections:
     label: "Post"
     folder: site/content/post
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
