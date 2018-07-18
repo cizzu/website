@@ -1,7 +1,6 @@
 backend:
   name: gitlab
   repo: cizzu/website # Path to your GitLab repository
-  branch: editing # Branch to update (optional; defaults to master)
 
 media_folder: "site/static/images/upload" # Folder where user uploaded files should go
 public_folder: "/images/upload"
