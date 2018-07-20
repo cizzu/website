@@ -2,13 +2,13 @@ backend:
   name: gitlab
   repo: cizzu/website # Path to your GitLab repository
 
-media_folder: "site/static/images/upload" # Folder where user uploaded files should go
+media_folder: "static/images/upload" # Folder where user uploaded files should go
 public_folder: "/images/upload"
 
 collections:
   - name: "post"
     label: "Post"
-    folder: site/content/post
+    folder: content/post
     create: true
     fields: 
       - { label: "Title", name: "title", widget: "string" }
