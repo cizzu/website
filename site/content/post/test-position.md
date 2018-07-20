@@ -1,6 +1,6 @@
 ---
 title: Test Position
-draft: true
+draft: false
 categories:
   - test
 tags:
