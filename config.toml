@@ -31,7 +31,7 @@ googleAnalytics = "UA-113052979-1"
   # Your Twitter username without the @. E.g : tranquilpeak
   twitter = "freeyandi"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
-  googlePlus = "+tendabiru"
+  gplus = "113896951171366373495"
 
 [params]
   dateFormate = "2 January 2006"
