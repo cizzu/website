@@ -12,12 +12,12 @@ collections:
     create: true
     fields: 
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Categories", name: "categories", widget: "list" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Keywords", name: "keywords", widget: "list" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Thumbnail", name: "thumbnailImage", widget: "string" }
       - { label: "Thumbnail Positioin", name: "thumbnailImagePosition", widget: "select", options: ["top", "left", "right"], default: "top" }
       - { label: "Cover Image", name: "coverImage", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "datetime" }
