@@ -1,15 +1,14 @@
 ---
-categories:
-- opini
+title: "Yang Baru di xcode-beta 9"
 date: 2017-06-06T02:43:00Z
-description: "Fitur-fitur baru yang ada pada xcode-beta 9."
 categories:
 - opini
 tags: [xcode]
+categories:
+- opini
 keywords: [xcode, xcode-beta, xcode 9, update, xcode update]
 draft: false
 slug: "yang-baru-di-xcode-beta-9"
-title: "Yang Baru di xcode-beta 9"
 thumbnailImage: https://source.unsplash.com/5VM5SHrs_E8/
 thumbnailImagePosition: "top"
 coverImage: https://source.unsplash.com/5VM5SHrs_E8/
