@@ -145,7 +145,6 @@ googleAnalytics = "UA-113052979-1"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/1219734/afriyandi-setiawan"
 
-
 [[menu.misc]]
   weight = 1
   identifier = "rss"
