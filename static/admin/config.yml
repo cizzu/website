@@ -12,9 +12,8 @@ media_library:
     api_key: 444617156827818
     default_transformations:
       -   - fetch_format: auto
-            width: 160
-            quality: auto
-            crop: scale
+            width: 0.6
+            quality: 20
 
 collections:
   - name: "post"
