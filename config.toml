@@ -46,7 +46,7 @@ googleAnalytics = "UA-113052979-1"
   thumbnailImage = true
   thumbnailImagePosition = "top"
   autoThumbnailImage = true
-  favicon = "favicon.ico"
+  favicon = "https://res.cloudinary.com/tendabiru/image/upload/c_scale,q_auto:low,w_32/v1506134517/favicon.png"
   readingtime = true
 
   [[params.sharingOptions]]

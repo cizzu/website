@@ -1,9 +1,22 @@
 backend:
-  name: gitlab
+  name: github
   repo: cizzu/website # Path to your GitLab repository
+  base_url: https://www.cizzu.com
+  site_domain: cms.netlify.com
 
-media_folder: "static/images/upload" # Folder where user uploaded files should go
-public_folder: "/images/upload"
+# media_folder: "static/images/upload" # Folder where user uploaded files should go
+# public_folder: "/images/upload"
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: tendabiru
+    api_key: 444617156827818
+    default_transformations:
+      -   - fetch_format: auto
+            width: 160
+            quality: auto
+            crop: scale
 
 collections:
   - name: "post"
