@@ -1,11 +1,9 @@
 backend:
   name: github
   repo: cizzu/website # Path to your GitLab repository
-  base_url: https://www.cizzu.com
-  site_domain: cms.netlify.com
 
-# media_folder: "static/images/upload" # Folder where user uploaded files should go
-# public_folder: "/images/upload"
+media_folder: "static/images/upload" # Folder where user uploaded files should go
+public_folder: "/images/upload"
 
 media_library:
   name: cloudinary
