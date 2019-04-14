@@ -5,15 +5,20 @@ backend:
 media_folder: "static/images/upload" # Folder where user uploaded files should go
 public_folder: "/images/upload"
 
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: tendabiru
+#     api_key: 444617156827818
+#     default_transformations:
+#       -   - fetch_format: auto
+#             width: 0.6
+#             quality: 20
+
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: tendabiru
-    api_key: 444617156827818
-    default_transformations:
-      -   - fetch_format: auto
-            width: 0.6
-            quality: 20
+    publicKey: f855db64f67de7e3373a
 
 collections:
   - name: "post"
