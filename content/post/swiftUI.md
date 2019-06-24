@@ -1,5 +1,5 @@
 ---
-title: "SwiftUI"
+title: "SwiftUI Perception"
 date: 2019-06-23T00:05:19+07:00
 categories:
 - opini
@@ -97,6 +97,7 @@ coba dijalankan...
 
 ## Kesimpulan
 + SwiftUI memang benar-benar baru, dan tidak bergantung kepada UIKit sama sekali.
++ Integrasi dengan existing project masih sulit.
 + Pengimplementasian full swift, dan kayanya bisa diimplementasi ke platform lain selama masih pake swift.
 + Masih banyak error di beta ini.
 + post bakalan di update 
