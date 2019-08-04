@@ -112,7 +112,7 @@ tambahkan constraint pada `UILabel` tersebut dan set `Lines` menjadi 0 sehingga 
 
 untuk mempermudah, tambahkan extension untuk String seperti berikut.
 
-```language-swift
+```swift
 extension String {
 
     func localized(_ comment: String = "") -> String {
@@ -126,7 +126,7 @@ lalu tambahkan terjemahan untuk "Hello, how are you doing, `Name`?" pada masing-
 
 lalu, pada file ViewController.swift, di bagian `viewdidload()` sisipkan code berikut.
 
-```language-swift
+```swift
     lblHello.text = "hello_name".localized()
 ```
 
@@ -136,7 +136,7 @@ coba jalankan pada simulator atau device, apabila berjalan dengan benar maka aka
 
 Hm, sepertinya sudah benar, sekarang rubah kode sebelumnya untuk dapat memasukan variable nama.
 
-```language-swift
+```swift
     lblHello.text = String(format: "hello_name".localized(), "Jane")
 ```
 apabila berjalan dengan benar maka akan didapat tampilan sebagai berikut,
@@ -148,7 +148,7 @@ Untuk merubah menjadi text bold, pada iOS diperlukan perubahan pada jenis font-n
 
 Untuk mengecek apakah font yang digunakan mendukung **bold** dapat dilakukan dengan menambahkan extension pada `UIFont` seperti berikut.
 
-```language-swift
+```swift
 extension UIFont {
     var isSupportBolt:Bool {
         get {
@@ -163,7 +163,7 @@ extension UIFont {
 
 Setelah pengecekan, barulah merubah font menggunakan font yang mendukung bolt. Untuk hal itu, tambahkan pada baris terakhir pada code di atas.
 
-```language-swift
+```swift
     func withTraits(traits:UIFontDescriptorSymbolicTraits...) -> UIFont {
         let descriptor = self.fontDescriptor
             .withSymbolicTraits(UIFontDescriptorSymbolicTraits(traits))
@@ -180,7 +180,7 @@ Setelah fungsi untuk menebalkan huruf selesai, sekarang waktunya membuat fungsi 
 
 Berikut adalah fungsinya,
 
-```language-swift
+```swift
     func convertTagFor(inputText text: NSMutableAttributedString, withAttribute attribute: Dictionary<String, AnyObject>, startWith start: String, endWith end: String) -> NSMutableAttributedString {
         
         while let str1 = text.string.range(of: start), let str2 = text.string.range(of: end) {
@@ -204,7 +204,7 @@ Satu hal yang mengganggu pada fungsi di atas adalah perubahan dari native swift 
 
 Terakhir yang perlu diubah pada `viewDidLoad()` adalah
 
-```language-swift
+```swift
         lblHello.text = "hello_name".localized()
         if lblHello.font.isSupportBolt {
             let titleAttrs:Dictionary<String,AnyObject> = [NSFontAttributeName: lblHello.font.bold(),

@@ -45,7 +45,7 @@ Buka file Main.storyboard kemudian masukan collection view dengan cara pilih obj
 
 Langkah berikutnya buka file ViewController.swift, kemudian tambahkan line berikut.
 
-```language-swift
+```swift
 @IBOutlet weak var theCollection: UICollectionView!
 ```
 
@@ -87,7 +87,7 @@ Sebenarnya tanpa file yang terpisah pun, pada ViewController juga dapat dideklar
 
 Pilih file ViewControllerEXT.swift, apabila belum me-import UIKit, tambahkan import UIKit pada bagian awal. Untuk mendeklarasikan delegate dan datasource protocol dari UICollectionView sisipkan baris berikut
 
-```language-swift
+```swift
 import UIKit 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 	
@@ -96,18 +96,18 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 
 Perhatikan, xcode akan memberitahu bahwa ada error `does not conform protocol UICOllectionViewDataSource` mengapa? karena pada UICollectionViewDataSource mewajibkan 2 function yang harus ada pada turunannya yaitu
 
-```language-swift
+```swift
 public func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
 ```
 dan
-```language-swift
+```swift
 public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
 ```
 Sebelum menyisipkan 2 function tersebut pada ViewControllerEXT.swift, beralih ke file CellCollection.swift, ada hal yang perlu kita lakukan dahulu. Seperti diungkapkan sebelumnya, CellCollection.swift berisi class CellCollection yang merupakan turunan dari UICollectionViewCell.
 
 Sama seperti protocol, untuk mendeklarasikan turunan class juga menggunakan syntax yang sama.
 
-```language-swift
+```swift
 import UIKit
 class CollectionCell: UICollectionViewCell {
 	
@@ -116,7 +116,7 @@ class CollectionCell: UICollectionViewCell {
 
 Tambahkan outlet reference label yang ada pada cell, sehingga nanti ketika runtime label tersebut dapat dirubah-ubah.
 
-```language-swift
+```swift
 import UIKit
 
 class CollectionCell: UICollectionViewCell {
@@ -132,7 +132,7 @@ Pada Connection Inspectore tarik outlet ke CollectionCell dan pilih cellNumber.
 
 Kembali lagi ke file ViewControllerEXT.swift, sisipkan 2 function yang diperlukan oleh UICollectionViewDataSource seperti berikut,
 
-```language-swift
+```swift
 import UIKit
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 
@@ -151,7 +151,7 @@ Coba untuk me-build (Cmd + B), apabila langkah-langkah di atas dilakukan dengan 
 
 pada class ViewController, tambahkan satu variable cellCount dengan type Int, yang digunakan sebagai jumlah cell yang ada, dengan nilai awal 1. Jadi, nantinya apabila di refresh, jumlah cell akan bertambah satu. Selain itu juga perlu instance dari class UIRefreshControl yang diberi nama variable refreshControl.
 
-```language-swift
+```swift
 import UIKit
 class ViewController: UIViewController {
     
@@ -182,7 +182,7 @@ coba jalankan kembali, maka dengan satu cell pun pull bisa dilakukan.
 # Langkah Terakhir: – Memasukan Refresh Control
 
 Pada class ViewController bagian viewdidload sisipkan code berikut,
-```language-swift
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -202,7 +202,7 @@ Iya, pada UIRefreshControl ada 2 function utama, yaitu `beginRefreshing()` dan `
 
 Untuk itu, diperlukan sebuah function yang dijalankan ketika refresh dimulai. Function itu saya beri nama refresh() dan disisipkan dalam class ViewController
 
-```language-swift
+```swift
 func refresh() {
     refreshController.beginRefreshing()
     cellCount += 1
@@ -211,7 +211,7 @@ func refresh() {
 }
 ```
 Dan untuk memanggilnya ketika proses refresh dimulai, sisipkan baris berikut sebelum `theCollection.addSubview(refreshController)`
-```language-swift
+```swift
 refreshController.addTarget(self, action: #selector(ViewController.refresh), forControlEvents: .ValueChanged)
 ```
 Coba jalankan kembali, apabila benar maka setiap kali ditarik kebawah, maka jumlah cell akan bertambah satu.

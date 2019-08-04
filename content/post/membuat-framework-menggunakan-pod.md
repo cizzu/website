@@ -26,14 +26,14 @@ Hal ini juga mengurangi kompleksitas ketika menggunakan banyak plug-in/modul. Ka
 
 Hal pertama yang perlu dilakukan adalah menginstall cocoapod. Perlu diketahui, cocoapods sendiri menggunakan [ruby](https://www.ruby-lang.org/en/), maka untuk instalasinya menggunakan gem.  Hal ini dapat dilakukan via terminal dengan menjalankan perintah berikut.
 
-```language-bash
+```bash
 sudo gem install cocoapods
 ```
 
 Dengan perintah di atas, cocoapod terinstal dalam system atau user admin, untuk yang tidak ingin cocoapod terinstall di system (diinstall menggunakan sudo) dan terinstall sebagai local seperti penulis, maka perlu menambahkan konfigurasi berikut pada `.bashrc` (atau `.zshrc` apabila menggunakan zsh) pada directory home user (~) sehingga semua perintah `gem install <package>` dapat diinstall sebagai local user dan bukan admin.
 
 
-```language-bash
+```bash
 #gem-local
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
@@ -41,7 +41,7 @@ export PATH=$GEM_HOME/bin:$PATH
 
 Setelah disave, kemudian jalankan perintah `source .bashrc` (atau `source .zshrc` bagi yang menggunakan zsh) untuk me-load settingan yang telah disimpan sebelumnya. kemudian jalankan perintah install cocoapod tanpa sudo.
 
-```language-bash
+```bash
 gem install cocoapods
 ```
 Maka cocoapod akan terinstal pada directory `~/.gem/` atau direktori lokal.
@@ -50,7 +50,7 @@ Maka cocoapod akan terinstal pada directory `~/.gem/` atau direktori lokal.
 
 Agar teratur, pindah ke directory dimana project akan dibuat dengan perintah `cd`, pada contoh kali ini penulis akan menggunakan directory `~/project/`. Perlu diketahui folder/direktori project pada home user perlu dibuat terlebih dahulu, hal ini dapat dilakukan dengan perintah `mkdir`.
 
-```language-bash
+```bash
 mkdir ~/project
 cd ~/project
 ```
@@ -59,13 +59,13 @@ Untuk tulisan kali ini, penulis akan membuat pod dengan mengambil salah satu cla
 
 Lakukan perintah berikut pada terminal,
 
-```language-bash
+```bash
 pod lib create "formLogin"
 ```
 
 Akan muncul jendela interaktif pada terminal, 
 
-```language-bash
+```bash
 What language do you want to use?? [ Swift / ObjC ]
  > swift
 ```
@@ -248,7 +248,7 @@ extension String {
 
 Agar bisa digunakan selain di project pod tersebut, maka `class ResponsiveTextField` perlu merubah access controlnya menjadi open.
 
-```language-swift
+```swift
 open class ResponsiveTextField: UITextField {
 ```
 
@@ -286,7 +286,7 @@ pod init
 
 Maka akan dibuatkan satu file bernama `Podfile` ubah pod file tersebut dengan menambahkan baris berikut  diantar notasi `target <project name>` dan `end`
 
-```language-ruby
+```ruby
 target 'Login Anywhere' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!

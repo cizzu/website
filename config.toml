@@ -65,23 +65,29 @@ googleAnalytics = "UA-113052979-1"
     url = "https://plus.google.com/share?url=%s"
 
   [[params.customJS]]
-    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-bash.min.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-bash.min.js"
 
   [[params.customJS]]
-    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-swift.min.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-swift.min.js"
 
   [[params.customJS]]
-    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-nginx.min.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-nginx.min.js"
 
   [[params.customJS]]
-    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-json.min.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-json.min.js"
 
   [[params.customJS]]
-    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/autolinker/prism-autolinker.min.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/plugins/autolinker/prism-autolinker.min.js"
+
+  [[params.customJS]]
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-ruby.min.js"
+
+  [[params.customJS]]
+    src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-yaml.min.js"
 
   [[params.customCSS]]
-    href = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-coy.min.css"
-
+    href = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism-coy.min.css"
+    
 [[menu.main]]
   weight = 1
   identifier = "home"
@@ -151,3 +157,7 @@ googleAnalytics = "UA-113052979-1"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
   url = "/index.xml"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
