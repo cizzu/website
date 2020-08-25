@@ -36,8 +36,7 @@ Sebelum memulai, perlu diketahui di aplikasi kitabisa ada 2 tahap development, y
 <!--toc-->
 
 # First Step
-![steps][steps]
-[steps]: https://source.unsplash.com/bt-Sc22W-BE/1800x620
+![steps](https://source.unsplash.com/bt-Sc22W-BE/1800x620)
 
 Awalnya simple aja, ikutin beberapa tutorial dari hasil search sana-sini, dan ini adalah script `ruby` untuk dipanggil oleh fastlane untuk archive project iOS kitabisa.
 
