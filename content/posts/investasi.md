@@ -13,7 +13,7 @@ keywords:
 - free software
 - ketrampilan
 - Afriyandi Setiawan
-draft: true
+draft: false
 thumbnailImage: https://source.unsplash.com/-8a5eJ1-mmQ/
 #thumbnailImagePosition: "top"
 coverImage: https://source.unsplash.com/lZ_4nPFKcV8/
