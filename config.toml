@@ -157,37 +157,3 @@ googleAnalytics = "UA-113052979-1"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
   url = "/index.xml"
-
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-
-  [module]
-
-  [[module.mounts]]
-    source = "content/post"
-    target = "content"
-
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
-
-  [[module.mounts]]
-    source = "data"
-    target = "data"
-
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-
-  [[module.mounts]]
-    source = "i18n"
-    target = "i18n"
-
-  [[module.mounts]]
-    source = "archetypes"
-    target = "archetypes"
