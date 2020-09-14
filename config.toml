@@ -116,13 +116,6 @@ googleAnalytics = "UA-113052979-1"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
-
 [[menu.links]]
   weight = 1
   identifier = "github"
@@ -130,12 +123,12 @@ googleAnalytics = "UA-113052979-1"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/aphe"
 
-# [[menu.links]]
-#   weight = 2
-#   identifier = "bitbucket"
-#   name = "Bitbucket"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bitbucket\"></i>"
-#   url = "https://bitbucket.org/afriyandi"
+[[menu.links]]
+  weight = 2
+  identifier = "bitbucket"
+  name = "Bitbucket"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bitbucket\"></i>"
+  url = "https://bitbucket.org/afriyandi"
 
 [[menu.links]]
   weight = 3
