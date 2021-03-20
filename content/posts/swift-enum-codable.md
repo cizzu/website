@@ -2,8 +2,8 @@
 title: "Swift Enum Codable"
 date: 2020-11-29T12:41:18+07:00
 categories:
-  - tutorial
-  - swift
+  - Notes
+  - Swift
 tags: [development, swift]
 keywords: [swift, enum, codable, encodable, decodable, json, array, dictionary]
 draft: false

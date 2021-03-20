@@ -2,7 +2,7 @@
 title: "Investasi"
 date: 2020-08-25T21:31:46+07:00
 categories:
-- opini
+- Opini
 tags:
 keywords:
 - investasi

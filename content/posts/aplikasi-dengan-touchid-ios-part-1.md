@@ -6,7 +6,7 @@ date: 2017-06-10T14:46:39Z
 draft: false
 slug: "aplikasi-dengan-touchid-ios-part-1"
 categories: 
-- tutorial
+- Notes
 tags: 
 - development
 - swift

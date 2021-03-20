@@ -5,7 +5,7 @@ date: 2017-05-27T22:00:48Z
 description: "Membuat framework dengan cocoapod yang merupakan dependency manager untuk cocoa yang digunakan pada pembuatan aplikasi iOS."
 draft: false
 categories:
-- tutorial
+- Notes
 tags: [swift, development]
 keywords: [swift, iOS, tutorial, CocoaPods, framework, ruby, pod, podspec]
 thumbnailImage: https://source.unsplash.com/b18TRXc8UPQ/

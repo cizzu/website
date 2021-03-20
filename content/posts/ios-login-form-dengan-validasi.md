@@ -4,7 +4,7 @@ description: "Tutorial bagaimana membuat login form yang dapat memvalidasi usern
 draft: false
 slug: "ios-login-form-dengan-validasi"
 categories:
-- tutorial
+- Notes
 tags:
 - development
 - swift

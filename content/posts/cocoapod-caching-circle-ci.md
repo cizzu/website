@@ -2,7 +2,7 @@
 title: "Cocoapod Caching & Mengurangi Build Time CircleCI"
 date: 2019-08-03T00:30:48+07:00
 categories:
-- tutorial
+- Notes
 tags:
 - development
 - swift

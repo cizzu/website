@@ -2,8 +2,8 @@
 title: "Duplicacy & Backblaze B2"
 date: 2020-09-14T10:23:53+07:00
 categories:
-- opini
-- review
+- Opini
+- Review
 tags:
 - backup
 keywords:

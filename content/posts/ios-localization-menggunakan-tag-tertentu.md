@@ -4,7 +4,7 @@ description: "Membuat localization pada aplikasi iOS yang support dengan tag ter
 draft: false
 slug: "ios-localization-menggunakan-tag-tertentu"
 categories:
-- tutorial
+- Notes
 tags: 
 - development
 - swift

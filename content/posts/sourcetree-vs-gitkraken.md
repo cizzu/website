@@ -6,8 +6,8 @@ date: 2017-08-13T04:35:00Z
 draft: false
 slug: "sourcetree-vs-gitkraken"
 categories: 
-- opini
-- review
+- Opini
+- Review
 tags: [git]
 keywords: [SourceTree, mac, GitKraken, review, kelebihan, kekurangan, osx, mac]
 thumbnailImage: https://res.cloudinary.com/tendabiru/image/upload/q_auto:good/xcbpodxcces4y16nhsla.png

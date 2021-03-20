@@ -2,8 +2,8 @@
 title: "SwiftUI Perception"
 date: 2019-06-23T00:05:19+07:00
 categories:
-- opini
-- programming
+- Opini
+- Programming
 tags:
 - development
 - swift

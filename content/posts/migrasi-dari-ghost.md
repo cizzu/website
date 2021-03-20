@@ -2,7 +2,7 @@
 title: "Migrasi Dari Ghost"
 date: 2018-07-11T09:12:22+07:00
 categories:
-- opini
+- Opini
 tags:
 - web
 - hugo

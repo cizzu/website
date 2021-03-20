@@ -4,7 +4,7 @@ description: "aplikasi yang dapat menambah satu jumlah cell setiap refresh deng
 draft: false
 slug: "pull-to-refresh-uicollectionview"
 categories:
-- tutorial
+- Notes
 tags: [development, swift]
 keywords: [swift, iOS, pull to refresh, tutorial, apple, xcode]
 title: "Pull To Refresh UICollectionView"

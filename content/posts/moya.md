@@ -6,7 +6,7 @@ date: 2018-01-24T16:13:21Z
 draft: false
 slug: "moya"
 categories:
-- tutorial
+- Notes
 tags: [development, swift]
 keywords: [swift, iOS, xcode, moya, Alamofire, tutorial, framework, xcode, xcode project, library]
 thumbnailImage: https://source.unsplash.com/Z3ownETsdNQ/

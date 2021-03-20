@@ -5,8 +5,8 @@ draft: false
 slug: "cloud-hosting-vs-shared-hosting"
 title: "Cloud Hosting vs Shared Hosting"
 categories:
-- opini
-- review
+- Opini
+- Review
 tags: 
 - web
 keywords: [opini, cloud, hosting, cloud hosting, shared hosting, vps]
