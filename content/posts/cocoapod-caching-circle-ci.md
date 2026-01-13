@@ -25,6 +25,8 @@ thumbnailImage: https://images.unsplash.com/photo-1516880711640-ef7db81be3e1
 #thumbnailImagePosition: "top"
 coverImage: https://images.unsplash.com/photo-1516880711640-ef7db81be3e
 
+---
+
 Hi 👋
 
 Beberapa waktu yang lalu, ketika ada waktu luang karena sudah selesai mengerjakan sprint, gue mencoba untuk mengerjakan salah satu [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) yang belum terlaksana di [aplikasi Kitabisa versi iOS](https://apps.apple.com/id/app/kitabisa/id1458307938) yaitu implement [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) dan [Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html).
