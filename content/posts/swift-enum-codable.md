@@ -9,7 +9,7 @@ keywords: [swift, enum, codable, encodable, decodable, json, array, dictionary]
 draft: false
 # thumbnailImage: https://source.unsplash.com/xxxx/
 #thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/QQKfUpuT8u8/
+coverImage: https://images.unsplash.com/photo-1585307704557-93df361b2b67
 ---
 
 Swift codable merupakan salah satu protocol yang mungkin akan sering digunakan, karena mempermudah developer untuk mem-parsing JSON format yang umumnya merupakan standart baku return dari API server.

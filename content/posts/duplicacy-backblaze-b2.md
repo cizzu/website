@@ -15,9 +15,9 @@ keywords:
 - cloud storage
 - Afriyandi Setiawan
 draft: false
-thumbnailImage: https://source.unsplash.com/5yEiCUynJ9w/
+#thumbnailImage: https://source.unsplash.com/5yEiCUynJ9w/
 #thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/ZVkDLrXGMdw/
+coverImage: https://images.unsplash.com/photo-1551313158-73d016a829ae
 ---
 
 Beberapa waktu yang lalu, sempet kepikiran untuk punya satu server cloud backup sendiri khususnya untuk project-project lama yang mungkin masih berguna tapi lumayan makan space di macbook (maklum macnya pake storage yang kecil).
@@ -36,7 +36,7 @@ Sebelum memulai, perlu sedikit dijabarin [duplicacy](https://duplicacy.com/) sen
 2. Duplicacy menggunakan pendekatan database-less, track-nya pake hash paket filenya.
 3. Wuss wuss, walaupun awal backup nya rada lama, tapi update dan prunenya cepet.
 
-![duplicate](https://source.unsplash.com/gLdJnQFcIXE/1800x620)
+![duplicate](https://images.unsplash.com/photo-1589447388175-ac47d31be950?q=80&w=1470&auto=format&fit=crop&w=1800&h=620)
 
 Duplicacy ini sendiri free untuk versi cli-nya, tapi berbayar ($20) untuk versi gui dan web-based nya, dan ga single purchase alias tiap tahun berjalannya bakalan kena charge lagi $5, ini untuk personal use dan first computer, computer berikutnya bakalan kena charge $10 dan $2 pertahunnya, untuk korporat $50.
 

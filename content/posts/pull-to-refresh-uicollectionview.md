@@ -8,9 +8,9 @@ categories:
 tags: [development, swift]
 keywords: [swift, iOS, pull to refresh, tutorial, apple, xcode]
 title: "Pull To Refresh UICollectionView"
-thumbnailImage: https://source.unsplash.com/gBnHMsAOWrs/
+thumbnailImage: https://images.unsplash.com/photo-1495772550304-5962cc25f046
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/gBnHMsAOWrs/
+coverImage: https://images.unsplash.com/photo-1495772550304-5962cc25f046
 ---
 
 

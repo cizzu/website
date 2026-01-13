@@ -6,9 +6,9 @@ categories:
 tags: [development, swift]
 keywords: [swift, iOS, dependency injection, depedensi, di, needle, needleDI, tutorial, framework, xcode, xcode project, library]
 draft: false
-thumbnailImage: https://source.unsplash.com/_HQdgqULdAQ/
+thumbnailImage: https://images.unsplash.com/photo-1502217915754-8272dd84a805
 #thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/_HQdgqULdAQ/
+coverImage: https://images.unsplash.com/photo-1502217915754-8272dd84a805
 ---
 
 Mungkin udah sering denger dengan yang namanya `dependency injection`, teknik yang memungkinkan sebuah objek menerima objek-objek lain yang diperlukan. objek-objek ini lah yang biasanya disebut dependency atau bahasa Indonesia-nya dependensi 🙄️.

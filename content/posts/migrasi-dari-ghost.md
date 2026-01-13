@@ -8,9 +8,9 @@ tags:
 - hugo
 keywords: [hugo, website, ghost, jekyll, static site, static page, html, static site generator]
 draft: false
-thumbnailImage: https://source.unsplash.com/fJTqyZMOh18/
+thumbnailImage: https://images.unsplash.com/photo-1512358958014-b651a7ee1773
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/fJTqyZMOh18/
+coverImage: https://images.unsplash.com/photo-1512358958014-b651a7ee1773
 
 ---
 Sebelumnya [cizzu.com](http://cizzu.com) menggunakan [ghost](https://ghost.org/) sebagai blog engine-nya, menggunakan server ubuntu yang di host di [Linode](https://goo.gl/tZDjPp), dengan biaya kurang lebih $10 - $12 per bulan. Dengan status sekarang yang sudah berkeluarga, rasanya pengeluaran segitu cukup lumayan juga 😅 apalagi servernya memang digunakan hanya untuk [cizzu.com](http://cizzu.com) saja, tanpa ada service atau aplikasi apa-apa lagi.
@@ -21,7 +21,7 @@ Sebelumnya [cizzu.com](http://cizzu.com) menggunakan [ghost](https://ghost.org/)
 Setelah pikir-pikir, alternatif apa ya yang bisa mengurangi pengeluaran di atas, solusi yang simple, mudah dan perubahan yang tidak terlalu banyak.
 Setelah baca sana-sini, sepertinya membuat web yang sifatnya statis ([static web page](https://en.wikipedia.org/wiki/Static_web_page)) bisa menjadi solusinya.
 
-![blog](https://source.unsplash.com/y02jEX_B0O0/1800x620)
+![blog](https://images.unsplash.com/photo-1455390582262-044cdead277a?fit=crop&w=1800&h=620)
 
 Apa itu static web page? Secara singkat, static web page adalah halaman web yang disajikan apa adanya dalam bentuk html. Apa adanya disini berarti halaman web yang disajikan sudah didefinisikan sebelumnya, tidak dinamis seperti web-web pada umumnya. Ini berarti server hanya menyimpan file html saja, tanpa perlu database, dan webserver untuk mengelola datanya.
 
