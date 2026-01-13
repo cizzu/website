@@ -15,8 +15,8 @@ keywords:
 - cloud storage
 - Afriyandi Setiawan
 draft: false
-#thumbnailImage: https://source.unsplash.com/5yEiCUynJ9w/
-#thumbnailImagePosition: "top"
+thumbnailImage: https://images.unsplash.com/photo-1551313158-73d016a829ae
+thumbnailImagePosition: "top"
 coverImage: https://images.unsplash.com/photo-1551313158-73d016a829ae
 ---
 
