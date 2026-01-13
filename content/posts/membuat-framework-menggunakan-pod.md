@@ -8,9 +8,9 @@ categories:
 - Notes
 tags: [swift, development]
 keywords: [swift, iOS, tutorial, CocoaPods, framework, ruby, pod, podspec]
-thumbnailImage: https://source.unsplash.com/b18TRXc8UPQ/
+thumbnailImage: https://images.unsplash.com/photo-1482062364825-616fd23b8fc1
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/b18TRXc8UPQ/
+coverImage: https://images.unsplash.com/photo-1482062364825-616fd23b8fc1
 ---
 Sebelum membuat project menggunakan cocoapod, sebelumnya perlu diketahui dahulu apa itu cocoapod?
 

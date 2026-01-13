@@ -10,9 +10,9 @@ tags:
 - swift
 keywords: [swift, iOS, tutorial, localization, translate, bahasa]
 title: "iOS localization menggunakan tag tertentu"
-thumbnailImage: https://source.unsplash.com/aUu8tZFNgfM/
+thumbnailImage: https://images.unsplash.com/photo-1501514799070-290ae1c889fe
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/aUu8tZFNgfM/
+coverImage: https://images.unsplash.com/photo-1501514799070-290ae1c889fe
 ---
 
 # Mukadimah

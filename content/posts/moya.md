@@ -9,9 +9,9 @@ categories:
 - Notes
 tags: [development, swift]
 keywords: [swift, iOS, xcode, moya, Alamofire, tutorial, framework, xcode, xcode project, library]
-thumbnailImage: https://source.unsplash.com/Z3ownETsdNQ/
+thumbnailImage: https://images.unsplash.com/photo-1483389127117-b6a2102724ae
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/Z3ownETsdNQ/
+coverImage: https://images.unsplash.com/photo-1483389127117-b6a2102724ae
 ---
 
 Halo, lumayan lama juga tidak mengupdate web ini. Selain kesibukan sehari-hari dan persiapan nikah, juga kadang aga males nerusin tulisan-tulisan yang ada di draft (ada sekitar 10an draft yang ga diterusin, yang kadang dikarenakan males, ataupun sudah out of date).

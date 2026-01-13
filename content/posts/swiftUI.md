@@ -10,9 +10,9 @@ tags:
 keywords:
 - tech
 draft: false
-thumbnailImage: https://source.unsplash.com/4-iZ147pSAE/
+thumbnailImage: https://images.unsplash.com/photo-1585307704557-93df361b2b67
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/_4815u_ACqQ/
+coverImage: https://images.unsplash.com/photo-1585307704557-93df361b2b67
 ---
 
 Hi, wwdc 2019 baru aja berlalu beberapa waktu yang lalu. Salah satu yang menarik perhatian adalah [SwiftUI](https://developer.apple.com/xcode/swiftui/). Dan dalam post kali ini akan coba dijelaskan _perception_ dari SwiftUI.
@@ -30,7 +30,7 @@ Kalo mencatut langsung dari situsnya, dijelaskan bahwa
 
 Ya bisa diartiin sendiri lah ya, `SwiftUI` ini salah satu _set of tools_ dan API untuk "mendikte" UI dengan cara deklaratif. Mungkin mirip-mirip widget di flutter kali ya (CMIIW).
 
-![blog](https://source.unsplash.com/OXkUz1Dp-4g/1800)
+![blog](https://images.unsplash.com/photo-1524635962361-d7f8ae9c79b1?q=80&w=1800&auto=format&fit=crop)
 
 SwiftUI ini juga mendukung semua ekosistemnya Apple (berharap bisa mendukung android, web, dll juga kelak), jadi paling engga bisalah _single codebase_ untuk UInya.
 

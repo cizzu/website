@@ -10,9 +10,9 @@ categories:
 tags: 
 - web
 keywords: [opini, cloud, hosting, cloud hosting, shared hosting, vps]
-thumbnailImage: https://source.unsplash.com/klWUhr-wPJ8/
+thumbnailImage: https://images.unsplash.com/photo-1506399558188-acca6f8cbf41
 thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/klWUhr-wPJ8/
+coverImage: https://images.unsplash.com/photo-1506399558188-acca6f8cbf41
 
 ---
 

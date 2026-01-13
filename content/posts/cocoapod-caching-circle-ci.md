@@ -21,10 +21,9 @@ keywords:
 - fastlane
 - ruby
 draft: false
-thumbnailImage: https://source.unsplash.com/ymf4_9Y9S_A/
+thumbnailImage: https://images.unsplash.com/photo-1516880711640-ef7db81be3e1
 #thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/d0AcxMk33is/
----
+coverImage: https://images.unsplash.com/photo-1516880711640-ef7db81be3e
 
 Hi 👋
 
@@ -36,7 +35,7 @@ Sebelum memulai, perlu diketahui di aplikasi kitabisa ada 2 tahap development, y
 <!--toc-->
 
 # First Step
-![steps](https://source.unsplash.com/bt-Sc22W-BE/1800x620)
+![steps](https://images.unsplash.com/40/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg?fit=crop&w=1800&h=620)
 
 Awalnya simple aja, ikutin beberapa tutorial dari hasil search sana-sini, dan ini adalah script `ruby` untuk dipanggil oleh fastlane untuk archive project iOS kitabisa.
 
@@ -163,7 +162,7 @@ Workflow-nya berjalan seperti ini, job yang pertama membuild & me-archive projec
 
 ## Nightmare
 ![nighmare][nightmare]
-[nightmare]: https://source.unsplash.com/P_GeWr5wNQc/1800x620
+[nightmare]: https://images.unsplash.com/photo-1518797883159-13a7999c9a80?q=80&w=688&auto=format&fit=crop&w=1800&h=620
 
 Sebenarnya semua berjalan dengan lancar, build success, beta distribution pun berjalan.
 

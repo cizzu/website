@@ -14,10 +14,9 @@ keywords:
 - ketrampilan
 - Afriyandi Setiawan
 draft: false
-thumbnailImage: https://source.unsplash.com/-8a5eJ1-mmQ/
+thumbnailImage: https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9
 #thumbnailImagePosition: "top"
-coverImage: https://source.unsplash.com/lZ_4nPFKcV8/
----
+coverImage: https://images.unsplash.com/photo-1579621970563-ebec7560ff3e
 
 Beberapa hari terakhir, seperitnya gaung investasi lumayan menggema di Indonesia.
 Tapi seperti sebelum-sebelumnya gaung itu pun sempat terdistorsi akibat kelakuan beberapa oknum.
@@ -30,7 +29,7 @@ Dulu sih waktu masih single dan pendapatan masih pas2an 😅️sepertinya keluar
 
 Untuk beli _software_ legal apalagi, ya kalo masih ada bajakannya pake dah tu bajakan. Tapi lumayan dari nyoba-nyoba bajakan ga jarang dapet pengalaman dan ilmu baru seperti gimana bedain link/sumber yang valid, valid disini berarti linknya ya beneran ada bajakannya bukan cuma link adf.ly yang tiada akhir 🧻️. Tapi ya ada ga enaknya juga, salah satunya pasti berurusan sama virus, malware, dkk nya. Udah install antivirus, tapi ya antivirus buat detek virus dari software bajakan aja juga bajakan, jadi aga sedikit paradox ga sih 🤪️.
 
-![steps](https://source.unsplash.com/XU1L22IUKnc/1800x620)
+![steps](https://images.unsplash.com/photo-1590971862391-06cac0657603?&fit=crop&w=1800&h=620)
 
 Ok, setelah beberapa tahun kerja dan akhirnya gerah atau mungkin nyerah karena untuk beberapa software susah nyari bajakannya dan juga udah punya kredit card (gajinya baru cukup buat apply dan bikin CC) akhirnya mulai bayar/beli untuk beberapa software tertentu seperti antivirus, sublime (sampe akhirnya keluar VSCode, kan 💩yak), dll.
 
@@ -38,7 +37,7 @@ Untuk software ini memang ada yang aga _tricky_ sih, khususnya untuk aplikasi ma
 
 Lain lagi untuk [SAAS](https://en.wikipedia.org/wiki/Software_as_a_service/), ini juga kadang 'menjebak' kalo ga dibaca bener-bener _feature_ apa yang ngebedain antara _free_ & _paid_-nya. Tapi untuk pemakaian pribadi rata-rata _free_ versionnya ok-ok aja sih, walaupun kadang emang ada perasaan untuk _support developer_-nya setelah lumayan _attached_ banget sama service yang mereka sediain, dan mulai rada-rada ngerti gimana perjuangannya buat publish satu SAAS (tapi jangan sering-sering ngerasain ini ya ✌️).
 
-![steps](https://source.unsplash.com/gkiZ-F3yPiY/1800x620)
+![steps](https://images.unsplash.com/photo-1588912914074-b93851ff14b8?&fit=crop&w=1800&h=620)
 
 _Online Course_ juga mirip-mirip, awalnya males juga belinya, dan kadang 'ngerasa' udah cukup hanya dengan baca _user guide_/_manual_ karena ya emang rata-rata harganya mahal. Mungkin satu cara yang bisa dilakuin dengan ngerayu bos buat beliin terus di share. Tapi bisa jadi nanti akan timbul masalah waktu resign, ya pastinya semua akses ke _online course_ itu pada ilang (makanya kalo e-book cepet-cepet langsung download dan simpen di drive).
 
