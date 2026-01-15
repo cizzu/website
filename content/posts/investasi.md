@@ -18,6 +18,8 @@ thumbnailImage: https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9
 #thumbnailImagePosition: "top"
 coverImage: https://images.unsplash.com/photo-1579621970563-ebec7560ff3e
 
+---
+
 Beberapa hari terakhir, seperitnya gaung investasi lumayan menggema di Indonesia.
 Tapi seperti sebelum-sebelumnya gaung itu pun sempat terdistorsi akibat kelakuan beberapa oknum.
 <!--more-->

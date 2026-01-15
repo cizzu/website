@@ -3,12 +3,20 @@ languageCode = "id-id"
 defaultContentLanguage = "id-id"
 title = "Cizzu"
 theme = "tranquilpeak"
-paginate = 5
 canonifyurls = true
 relativeurls = true
 
-disqusShortname = "cizzu"
 googleAnalytics = "UA-113052979-1"
+
+[params.comment.disqus]
+  enable = true
+  shortname = "cizzu"
+
+[services.disqus]
+  shortname = "cizzu"
+
+[pagination]
+  pagerSize = 10
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
@@ -18,10 +26,10 @@ googleAnalytics = "UA-113052979-1"
   category = "categories"
   archive = "archives"
 
-[author]
+[params.author]
   name = "Afriyandi Setiawan"
   bio = "Oh, hi there 👋"
-  job = "Senior iOS Engineer @ Kitabisa.com"
+  job = "Senior iOS Engineer @ virgoku.id"
   # location = "Jakarta"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "afreeyandi@gmail.com"
