@@ -59,17 +59,17 @@ googleAnalytics = "UA-113052979-1"
 
   [[params.sharingOptions]]
     name = "Facebook"
-    icon = "fa-facebook-official"
+    icon = "fab fa-facebook-square"
     url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
   [[params.sharingOptions]]
     name = "Twitter"
-    icon = "fa-twitter"
+    icon = "fab fa-twitter"
     url = "https://twitter.com/intent/tweet?text=%s"
 
   [[params.sharingOptions]]
     name = "Google+"
-    icon = "fa-google-plus"
+    icon = "fab fa-google-plus"
     url = "https://plus.google.com/share?url=%s"
 
   [[params.customJS]]
@@ -95,7 +95,7 @@ googleAnalytics = "UA-113052979-1"
 
   [[params.customCSS]]
     href = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism-coy.min.css"
-    
+
 [[menu.main]]
   weight = 1
   identifier = "home"
@@ -128,28 +128,36 @@ googleAnalytics = "UA-113052979-1"
   weight = 1
   identifier = "github"
   name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\"></i>"
   url = "https://github.com/aphe"
+
+[[menu.links]]
+  weight = 1
+  identifier = "gitlab"
+  name = "Gitlab"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-gitlab\"></i>"
+  url = "https://gitlab.com/aphe"
+
 
 [[menu.links]]
   weight = 2
   identifier = "bitbucket"
   name = "Bitbucket"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bitbucket\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-bitbucket\"></i>"
   url = "https://bitbucket.org/afriyandi"
 
 [[menu.links]]
   weight = 3
   identifier = "linkedin"
   name = "LinkedIn"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-linkedin\"></i>"
   url = "https://www.linkedin.com/in/afriyandi/"
 
 [[menu.links]]
   weight = 4
   identifier = "stackoverflow"
   name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/1219734/afriyandi-setiawan"
 
 [[menu.misc]]
